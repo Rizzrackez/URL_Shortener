@@ -7,7 +7,7 @@ from rest_framework import generics
 from rest_framework.response import Response
 from rest_framework import status
 
-from shortener_app.URLshorterer_services import check_valid_url, check_exists_slug
+from shortener_app.URL_shortener_services import check_valid_url, check_exists_slug
 
 
 class SourceUrlCreateView(generics.CreateAPIView):
